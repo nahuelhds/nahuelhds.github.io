@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Guardando las credenciales Git"
-date:   2016-03-03 12:00:00 -0300
+date:   2016-03-03
 categories: git
+tags: git, git-credentials
 ---
 
 ¿Querés evitar que Git pregunte todo el tiempo por tu usuario y contraseña en tu proyecto? Segun, [la documentación de Git](http://git-scm.com/docs/git-credential-store) basta con configurar el proyecto con el siguiente comando:

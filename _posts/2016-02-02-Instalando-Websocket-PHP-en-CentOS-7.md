@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Instalando Websocket PHP en CentOS 7"
-date:   2016-02-02 12:00:00 -0300
-categories: centos 7 websocket
+date:   2016-02-02
+categories: websocket
+tags: centos7, centos, websocket, voryx, thruway, systemd
 ---
 
 Instrucciones para instalar de forma efectiva la implementación de Websocket para PHP mediante [Voryx/Thruway](https://github.com/voryx/Thruway)
@@ -73,7 +74,7 @@ define ('WS_SERVER_PORT'    , 9090);
 Básicamente, esa definición significa *recibir cualquier petición que provenga de cualquier IP*. Lógicamente, esto se complementa con la apertura del puerto 9090 para efectivamente permitir que cualquier IP envíe peticiones al servidor WS.
 
 ### Creación y configuración del daemon
-Crear el archivo `websocket.service` en la repo de systemd del usuario del servidor
+Crear el archivo `websocket.service` en la repo de `systemd` del usuario del servidor
 
 ```shell
 vi /usr/lib/systemd/system/websocket.service

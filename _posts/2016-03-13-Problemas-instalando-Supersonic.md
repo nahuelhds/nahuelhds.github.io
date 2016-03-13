@@ -2,7 +2,8 @@
 layout: post
 title:  "Problemas instalando Supersonic"
 date:   2016-03-13 11:07:42 -0300
-categories: hybrid-apps
+categories: mobile
+tags: supersonic, steroids, appgyver, grunt, grunt-contrib
 ---
 
 Este fin de semana estuve probando un poco de [Supersonic](http://www.appgyver.io/supersonic), el fork de [Ionic](http://ionicframework.com/) hecho por la gente de [AppGyver](http://www.appgyver.io/) para su hybrid apps tool [Steroids²](http://www.appgyver.io/steroids).
