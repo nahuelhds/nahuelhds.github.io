@@ -2,7 +2,7 @@
 layout: post
 title:  "Instalar Imagick en Wamp 2.5"
 categories: wamp
-tags: wamp2.5, wamp, imagick
+tags: wamp, imagick
 ---
 
 Estaba queriendo instalar Imagick de manera local. Como no podía ser de otra manera, encontré la pista en [StackOverflow](http://stackoverflow.com/a/26265214).
