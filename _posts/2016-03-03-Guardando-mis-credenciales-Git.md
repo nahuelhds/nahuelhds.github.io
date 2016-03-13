@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Guardando las credenciales Git"
-date:   2016-03-03
 categories: git
 tags: git, git-credentials
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Instalar Imagick en Wamp 2.5"
-date:   2016-01-27
 categories: wamp
 tags: wamp2.5, wamp, imagick
 ---
