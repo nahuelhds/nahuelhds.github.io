@@ -2,7 +2,7 @@
 layout: post
 title:  "Connection closed by foreign host"
 categories: server
-tags: wamp2.5, wamp, imagick
+tags: centos, ant, sshd
 ---
 
 Al hacer deploy con *ant* de manera remota se me moría la conexión en cualquier lugar de la ejecución con el siguiente error
