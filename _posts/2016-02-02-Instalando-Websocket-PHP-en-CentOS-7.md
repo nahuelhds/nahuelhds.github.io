@@ -125,7 +125,7 @@ CGroup: /system.slice/websocket.service
 ```
 
 ### Comprobar funcionamiento
-Ingresar a http://www.websocket.org/echo.html y probar la dirección del websocket `ws://<url>:9090`.
+Ingresar a [http://www.websocket.org/echo.html](http://www.websocket.org/echo.html) y probar la dirección del websocket `ws://<url>:9090`.
 
 El resultado debe ser *"this browser supports WebSocket"*.
 
