@@ -11,7 +11,7 @@ Al hacer deploy con *ant* de manera remota se me moría la conexión en cualquie
 Connection closed by foreign host
 ```
 
-Para solucionarlo, encontré el siguiente enlace:  [http://www.hypertable.com/documentation/misc/ssh_maxstartups/](http://www.hypertable.com/documentation/misc/ssh_maxstartups/).
+Para solucionarlo, encontré el siguiente enlace: [http://www.hypertable.com/documentation/misc/ssh_maxstartups/](http://www.hypertable.com/documentation/misc/ssh_maxstartups/).
 
 Allí se indica que algunos servidores, por defecto, permiten hasta 10 conexiones simultáneas a nivel SSH, lo cual es configurado mediante la variable `MaxStartups`. Por tal motivo, es necesario modificar esta propiedad que se encuenta en `/etc/sshd_config` o `/etc/ssh/sshd_config`.
 
