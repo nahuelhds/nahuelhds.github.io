@@ -1,25 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-03-12 22:47:14 -0300
-categories: jekyll update
+title:  "Installing Supersonic"
+date:   2016-03-13 02:21:00 -0300
+categories: supersonic
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+After following all the Supersonic instructions for the initial installation, you'll run with some npm dependencies issues. Well, the problem is fixed by installing those dependencies.
+1. After `steroids create myProject` and `cd myProject` it'll throw some errors. To fix it just install the npm dependencies that fails.
+1. Long story short: `npm install grunt grunt-extend-config grunt-contrib-clean grunt-contrib-coffee grunt-contrib-sass grunt-contrib-concat grunt-contrib-copy`
+1. Wait for it.
+1. Good. Now just run `steroids connect` and you're done.
