@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Instalando Supersonic"
-date:   2016-03-13 02:21:00 -0300
+date:   2016-03-13 11:07:42 -0300
 categories: supersonic
 ---
 
