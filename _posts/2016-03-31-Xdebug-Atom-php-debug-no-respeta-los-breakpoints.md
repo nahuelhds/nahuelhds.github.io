@@ -10,4 +10,4 @@ Al intentar utilizar [Xdebug](https://xdebug.org/) mediante [php-debug](https://
 
 El problema fue resuelto luego de _desactivar todas las casillas de PHP Exceptions_ en la configuración del plugin.
 
-__Fuente__: [https://github.com/gwomacks/php-debug/issues/144](https://github.com/gwomacks/php-debug/issues/144)
+__Fuente__: [https://github.com/gwomacks/php-debug/issues/144#issuecomment-197302609](https://github.com/gwomacks/php-debug/issues/144#issuecomment-197302609)
