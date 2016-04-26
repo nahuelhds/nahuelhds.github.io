@@ -1,0 +1,33 @@
+Todo esto nació a partir de querer deshacer un merge erróneo de una característica ya pusheado en develop
+Al querer pisar la historia, haciendo revert y hacer luego git push -f
+El error era pre-hook bla bla bla.
+El motivo es que bitbucket tiene un hook para evitar:
+1- Eliminar develop
+2- Evitar que pisen la historia de develop
+
+Este ultimo es el que nos importa.
+Entonces:
+1- Entrar a bitbucket-
+2- Proyecto
+3- Settings
+4- Branch management
+5- Sacamos develop de "Prevent history re-writes (rebase) on these branches"
+6- Hacemos el git push -f (mucho cuidado)
+7- Mergeamos nuevamente como corresponde
+8- Push
+9- Volvemos a incluir develop en "Prevent history re-writes (rebase) on these branches"
+
+Si no funciona la otra es
+1- Entrar a bitbucket-
+2- Proyecto
+3- Settings
+4- Branch management
+5- Sacamos develop de "Prevent deletion of these branches"
+6- En el commit que queremos hacer revert, creamos un branch develop2
+7- Mergeamos en develop2
+8- Pusheamos
+9- Eliminamos los branches develop local y remoto.
+10- Renombramos develop2 a develop.
+11- Pusheamos
+12- Eliminamos develop2 local y remotamente.
+13- Volvemos a incluir develop en "Prevent deletion of these branches"
