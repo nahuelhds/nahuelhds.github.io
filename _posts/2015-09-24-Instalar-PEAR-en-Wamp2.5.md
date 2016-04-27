@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Instalar PEAR en Wamp 2.5"
 categories: wamp
 tags: wamp, php, pear, phar

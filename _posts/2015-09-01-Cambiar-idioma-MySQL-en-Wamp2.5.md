@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Cambiar idioma MySQL en Wamp 2.5"
 categories: wamp
 tags: wamp, mysql

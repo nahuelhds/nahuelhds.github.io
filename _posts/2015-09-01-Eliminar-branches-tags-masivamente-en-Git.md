@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Eliminar branches/tags masivamente en Git"
 categories: git
 tags: git, branch, tag regexp

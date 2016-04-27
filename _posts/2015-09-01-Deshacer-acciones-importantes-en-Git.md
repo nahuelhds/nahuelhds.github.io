@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Deshacer acciones graves en Git"
 categories: git
 tags: git

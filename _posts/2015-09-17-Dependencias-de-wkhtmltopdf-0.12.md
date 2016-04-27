@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Dependencias de wkhtmltopdf 0.12 o superior"
 categories: servidor
 tags: wkhtmltopdf, centos

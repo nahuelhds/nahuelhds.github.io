@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Debug mobile en Windows con Weinre"
 categories: mobile
 tags: mobile, ios, weinre, debug

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Guardando las credenciales Git"
 categories: git
 tags: git, git-credentials

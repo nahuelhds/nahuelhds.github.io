@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Xdebug & Atom: php-debug no respeta los breakpoints"
-date:   2016-03-31 19:59 -0300
 categories: atom
 tags: atom, xdebug, php-debug
 ---

@@ -10,10 +10,24 @@ title: Un desarrollador cualquiera
 email: nsotelo@cristalmedia.net
 description: >
   Anotaciones sobre desarrollo web y mobile.
+
 baseurl: ""
 url: "http://nahuelhds.github.io"
+
 twitter_username: nahuelhds
 github_username:  nahuelhds
 
+timezone: America/Argentina/Buenos_Aires
+
 # Build settings
 markdown: kramdown
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Nahuel Sotelo"

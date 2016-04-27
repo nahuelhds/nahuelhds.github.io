@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Instalando Websocket PHP en CentOS 7"
 categories: websocket
 tags: centos7, centos, websocket, voryx, thruway, systemd

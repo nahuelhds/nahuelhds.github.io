@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Atom - Plugins y configuraciones"
-date:   2016-03-15 21:50 -0300
 categories: atom
 tags: atom
 ---

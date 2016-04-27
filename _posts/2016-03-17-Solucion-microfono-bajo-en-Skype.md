@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Solución micrófono bajo en Skype"
-date:   2016-03-17 09:32 -0300
 categories: otros
 tags: skype, microfono, realtek
 ---

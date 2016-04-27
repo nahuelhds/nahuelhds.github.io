@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Actualizar a Ruby 2 en CentOS"
-date:   2016-03-17 15:52 -03:00
 categories: servidor
 tags: centos, ruby, yum
 ---

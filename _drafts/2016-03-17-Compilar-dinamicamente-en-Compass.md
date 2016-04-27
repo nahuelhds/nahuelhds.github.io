@@ -1,8 +1,5 @@
 ---
-layout: post
 title:  "Compilar dinámicamente en Compass"
-date:   2016-03-17 20:23 -03:00
-published: false
 categories: sass
 tags: sass, scss, compass
 ---

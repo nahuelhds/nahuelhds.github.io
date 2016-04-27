@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Connection closed by foreign host"
 categories: servidor
 tags: centos, ant, sshd
