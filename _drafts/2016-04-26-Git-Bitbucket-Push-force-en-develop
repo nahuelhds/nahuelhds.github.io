@@ -17,6 +17,8 @@ Entonces:
 8- Push
 9- Volvemos a incluir develop en "Prevent history re-writes (rebase) on these branches"
 
+![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+
 Si no funciona la otra es
 1- Entrar a bitbucket-
 2- Proyecto
