@@ -15,7 +15,7 @@ utilizamos el menu propio de WampServer que resulta por demás cómodo para esta
 
 ### Desde httpd.conf
 Opcionalmente, podemos abrir el archivo de configuración de Apache `httpd.conf`,
-ubicado en, por ejemplo, `D:\wamp\bin\apache\apache2.4.9\conf\httpd.conf`.
+ubicado en, por ejemplo, `D:/wamp/bin/apache/apache2.4.9/conf/httpd.conf`.
 Dentro del archivo, buscamos y reemplazamos:
 
 ```apache
@@ -27,17 +27,17 @@ LoadModule headers_module modules/mod_headers.so
 La configuración puede realizarse en un host virtual o directamente en el `htaccess`.
 
 ### Desde el virtual host
-Siguiendo el ejemplo, ingresaríamos al archivo `D:\wamp\bin\apache\apache2.4.9\conf\extra\httpd-vhosts.conf`. Si quisieramos configurar CORS
+Siguiendo el ejemplo, ingresaríamos al archivo `D:/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf`. Si quisieramos configurar CORS
 para todos los dominios dentro de localhost, definiríamos:
 
 ```apache
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
-    DocumentRoot "D:\wamp\www"
+    DocumentRoot "D:/wamp/www"
     ErrorLog "logs/mysite.log"
     CustomLog "logs/mysite-access.log" common
 
-    <Directory "D:\wamp\www">
+    <Directory "D:/wamp/www">
         AllowOverride All
         Order allow,deny
         Allow from all
