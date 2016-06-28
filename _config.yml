@@ -14,8 +14,6 @@ timezone: America/Argentina/Buenos_Aires
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
 
 # Defaults
 defaults:
