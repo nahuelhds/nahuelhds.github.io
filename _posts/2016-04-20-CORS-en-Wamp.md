@@ -13,7 +13,7 @@ hacerlo de la siguiente manera.
 Primero que nada es necesario tener el módulo Apache "headers" activado. Para ello
 utilizamos el menu propio de WampServer que resulta por demás cómodo para estas activaciones.
 
-![Apache headers_module](assets/Apache-headers_module.png)
+![Apache headers_module](http://i.imgur.com/cYTgIad.png)
 
 ### Desde httpd.conf
 Opcionalmente, podemos abrir el archivo de configuración de Apache `httpd.conf`,
