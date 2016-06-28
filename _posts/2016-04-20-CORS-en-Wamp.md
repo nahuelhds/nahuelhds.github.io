@@ -20,7 +20,7 @@ Opcionalmente, podemos abrir el archivo de configuración de Apache `httpd.conf`
 ubicado en, por ejemplo, `D:\wamp\bin\apache\apache2.4.9\conf\httpd.conf`.
 Dentro del archivo, buscamos y reemplazamos:
 
-```apache
+```
 #LoadModule headers_module modules/mod_headers.so
 LoadModule headers_module modules/mod_headers.so
 ```
