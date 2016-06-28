@@ -13,8 +13,6 @@ hacerlo de la siguiente manera.
 Primero que nada es necesario tener el módulo Apache "headers" activado. Para ello
 utilizamos el menu propio de WampServer que resulta por demás cómodo para estas activaciones.
 
-<img src="http://i.imgur.com/cYTgIad.png" alt="Apache headers_module" title="Apache headers_module"/>
-
 ### Desde httpd.conf
 Opcionalmente, podemos abrir el archivo de configuración de Apache `httpd.conf`,
 ubicado en, por ejemplo, `D:\wamp\bin\apache\apache2.4.9\conf\httpd.conf`.
