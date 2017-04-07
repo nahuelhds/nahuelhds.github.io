@@ -15,8 +15,9 @@ Mi ambiente es el siguiente:
 
 ### Importante
 Es necesario utilizar una versión de **OpenSSL** que no sea la nativa de WAMP.
-Yo lo descargue de [la página de SourceForge](https://sourceforge.net/projects/openssl/). El archivo
-descargado fue [https://ufpr.dl.sourceforge.net/project/openssl/openssl-1.0.2j-fips-x86_64/openssl-1.0.2j-fips-x86_64.zip](https://ufpr.dl.sourceforge.net/project/openssl/openssl-1.0.2j-fips-x86_64/openssl-1.0.2j-fips-x86_64.zip).
+Yo lo descargue de [la página de SourceForge](https://sourceforge.net/projects/openssl/).
+
+El archivo descargado fue [https://ufpr.dl.sourceforge.net/project/openssl/openssl-1.0.2j-fips-x86_64/openssl-1.0.2j-fips-x86_64.zip](https://ufpr.dl.sourceforge.net/project/openssl/openssl-1.0.2j-fips-x86_64/openssl-1.0.2j-fips-x86_64.zip).
 
 ## TL;DR
 Las instrucciones principales se encuentran en el propio foro de [WampServer](http://forum.wampserver.com/read.php?2,137505,137522#msg-137522). Si Apache no levanta, seguramente haya algo mal. Los que me surgieron a mi los
