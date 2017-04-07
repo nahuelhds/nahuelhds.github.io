@@ -1,5 +1,5 @@
 ---
-title:  "Localhost - Habilitar SSL en Windows 10 64bits con WAMP 64bits y OpenSSL"
+title:  "Localhost - Habilitar SSL en Windows 10 x64 con WAMP x64 y OpenSSL"
 categories: ssl
 tags: servidor, localhost, ssl, https, windows 10, wamp, openssl, wampserver, 64bits
 published: true
@@ -9,7 +9,7 @@ Si precisás habilitar SSL para algún proyecto local en Windows, sabé que pued
 ser un dolor de cabeza.
 
 Mi ambiente es el siguiente:
-- Windows 10 64bits.
+- Windows 10 x64
 - WampServer Version 3.0.4 64bit
 - Apache 2.4.18
 
