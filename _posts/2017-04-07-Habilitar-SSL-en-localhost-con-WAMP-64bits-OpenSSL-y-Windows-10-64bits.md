@@ -15,7 +15,7 @@ Mi ambiente es el siguiente:
 
 ### Importante
 Es necesario utilizar una versión de **OpenSSL** que no sea la nativa de WAMP.
-Yo lo descargue de acá https://sourceforge.net/projects/openssl/. El archivo
+Yo lo descargue de acá [https://sourceforge.net/projects/openssl/](). El archivo
 descargado fue https://ufpr.dl.sourceforge.net/project/openssl/openssl-1.0.2j-fips-x86_64/openssl-1.0.2j-fips-x86_64.zip.
 
 ## TL;DR
