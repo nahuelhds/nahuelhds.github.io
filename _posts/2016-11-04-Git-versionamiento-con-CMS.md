@@ -1,27 +1,30 @@
 ---
-title:  "Git. Versionamiento con CMS"
-categories: git
-tags: "contrinuous integration", ci, git, cms, joomla, wordpress
+title: Git. Versionamiento con CMS
 published: true
+categories: git
+tags:
+  - continuous integration
+  - ci
+  - git
+  - cms
+  - joomla
+  - wordpress
 ---
 
-Lo siguiente es una idea de cómo versionar cambios en proyectos de tipo CMS,
-donde es necesario tener control de los cambios en el código de parte de los
-devs, así como también cambios que pueda realizar el cliente desde la
-administración del CMS.
+Lo siguiente es una idea de cómo versionar cambios en proyectos de tipo CMS, donde es necesario tener control de los cambios en el código de parte de los devs, así como también cambios que pueda realizar el cliente desde la administración del CMS.
 
-Más que nada, es necesario que cada cambio introducido no pise lo hecho por el
-cliente.
+Más que nada, es necesario que cada cambio introducido no pise lo hecho por el cliente.
 
 # Antes de empezar
-Tener a mano el título del **hotfix** para copiar y pegar fácilmente.
-Si existe previamente un **hotfix**, eliminarlo con
+
+Tener a mano el título del **hotfix** para copiar y pegar fácilmente. Si existe previamente un **hotfix**, eliminarlo con
 
 ```shell
 git branch -d "hotfix/$cliente/$titulo"
 ```
 
 ## Publicando los cambios en la repo
+
 Ingresar al servidor e ir a la repo, y luego ejecutamos los siguientes comandos
 
 ```shell
@@ -48,13 +51,14 @@ git flow hotfix publish "CODIGO-999-Integracion"
 ## Finalizando la integración localmente
 
 1. Hacemos pull de los cambios.
-1. Checkout al hotfix nuevo.
-1. Verificamos que no hayan archivos no deseados o bien algunos ajustes que sean requeridos (en general ninguno, pero nunca se sabe).
-1. Finalizar el hotfix para que mergee a master y develop.
-1. Si surgen conflictos, resolverlos.
-1. Pushear todo.
+2. Checkout al hotfix nuevo.
+3. Verificamos que no hayan archivos no deseados o bien algunos ajustes que sean requeridos (en general ninguno, pero nunca se sabe).
+4. Finalizar el hotfix para que mergee a master y develop.
+5. Si surgen conflictos, resolverlos.
+6. Pushear todo.
 
 ## Limpiando la repo remota
+
 Volvemos al servidor, movemos la repo a master, hacemos pull, eliminamos el hotfix publicado y finalmente dejamos los permisos al usuario correspondiente.
 
 ```shell
