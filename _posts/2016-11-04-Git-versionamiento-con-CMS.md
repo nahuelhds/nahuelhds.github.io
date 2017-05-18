@@ -1,7 +1,7 @@
 ---
 title:  "Git. Versionamiento con CMS"
 categories: git
-tags: contrinuous integration, ci, git, cms, joomla, wordpress
+tags: "contrinuous integration", ci, git, cms, joomla, wordpress
 published: true
 ---
 
