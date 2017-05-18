@@ -20,7 +20,7 @@ De este modo, todo el dump que genere el archivo será guardado en un **ws_log**
 para poder tener un registro de lo que se va generando. Adicionalmente, el archivo
 **error_log** contendrá cualquier error que pueda surgir con la ejecución del script.
 
-**Fuente:** http://stackoverflow.com/questions/4797050/how-to-run-process-as-background-and-never-die
+**Fuente:** [http://stackoverflow.com/questions/4797050/how-to-run-process-as-background-and-never-die](http://stackoverflow.com/questions/4797050/how-to-run-process-as-background-and-never-die)
 
 ## Matar el proceso activo
 
@@ -50,5 +50,5 @@ kill 2613
 Con el proceso finalizado, ahora podemos proceder con el reinicio del proceso websocket detallado en el apartado anterior.
 
 ## Comprobar funcionamiento
-Ingresar a http://www.websocket.org/echo.html y probar la dirección del websocket
+Ingresar a [http://www.websocket.org/echo.html](http://www.websocket.org/echo.html) y probar la dirección del websocket
 `ws://<url>:9090`. El resultado debe ser "this browser supports WebSocket".
