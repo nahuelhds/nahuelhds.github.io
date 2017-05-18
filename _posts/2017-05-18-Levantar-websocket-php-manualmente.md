@@ -1,5 +1,5 @@
 ---
-title:  "Instalando Websocket PHP en CentOS 7"
+title:  "Levantar Websocket PHP manualmente"
 categories: websocket
 tags: server, centos, websocket, voryx, thruway
 ---
