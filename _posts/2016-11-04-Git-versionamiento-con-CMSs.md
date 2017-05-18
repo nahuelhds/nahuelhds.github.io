@@ -1,7 +1,7 @@
 ---
 title:  "Git. Versionamiento con CMSs"
-categories: servidor
-tags: servidor, ferozo, mysql, remote
+categories: git
+tags: contrinuous integration, ci, git, cms, joomla, wordpress
 published: true
 ---
 
