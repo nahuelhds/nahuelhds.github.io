@@ -4,7 +4,7 @@ categories: websocket
 tags: server, centos, websocket, voryx, thruway
 ---
 
-En post no muy lejano, expliqué [cómo instalar un servidor y cliente de Websocket PHP](2016-02-02-Instalando-Websocket-PHP-en-CentOS-7.md). En este caso vamos a ver
+En un post no muy lejano, expliqué [cómo instalar un servidor y cliente de Websocket PHP](2016-02-02-Instalando-Websocket-PHP-en-CentOS-7.md). En este caso vamos a ver
 cómo levantarlo y matarlo manualmente en un servidor CentOS.
 
 # ¿Cuándo intentar la implementación manual?
