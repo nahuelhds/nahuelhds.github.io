@@ -1,7 +1,7 @@
 ---
-title:  "Actualizar a Ruby 2 en CentOS"
-categories: servidor
-tags: centos, ruby, yum
+title:  "Instalar Compass en CentOS"
+categories: sass
+tags: centos, sass, compass, ruby
 ---
 
 Para instalar Ruby, recomiendo [leer un post elaborado el año pasado al respecto](2016-03-17-Actualizar-Ruby2-en-CentOS.md).
