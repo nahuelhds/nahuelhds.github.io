@@ -31,10 +31,10 @@ debemos correr el build y prestar atención al siguiente mensaje:
 
 ```bash
 To run dex in process, the Gradle daemon needs a larger heap.
-# It currently has 1024 MB.
-# For faster builds, increase the maximum heap size for the Gradle daemon to at least 4608 MB (based on the dexOptions.javaMaxHeapSize = 4g).
-# To do this set org.gradle.jvmargs=-Xmx4608M in the project gradle.properties.
-# For more information see https://docs.gradle
+It currently has 1024 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to at least 4608 MB (based on the dexOptions.javaMaxHeapSize = 4g).
+To do this set org.gradle.jvmargs=-Xmx4608M in the project gradle.properties.
+For more information see https://docs.gradle
 ```
 
 Como se ve, en mi caso el heap size era de 1024m y me recomendaba levantarlo a 4g, por lo que en `gradle.properties`
