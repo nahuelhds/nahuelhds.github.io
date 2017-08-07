@@ -4,6 +4,13 @@ categories: android
 tags: android, gradle, build
 ---
 
+## TL;DR
+```java
+org.gradle.parallel=true
+org.gradle.jvmargs=-Xmx4608M 
+```
+
+## Optimizando el build
 En mi caso, tengo un proyecto que demoraba aproximadamente 1 minuto en realizar el build inicial
 y un tiempo similar por cada vez que quería volver a correrlo en el emulador, mientra iba desarrollando
 modificaciones en el código.
