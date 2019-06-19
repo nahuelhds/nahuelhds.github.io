@@ -1,5 +1,5 @@
 {
   "scripts":{
-    "dev": "jekyll serve"
+    "start": "jekyll serve"
   }
 }

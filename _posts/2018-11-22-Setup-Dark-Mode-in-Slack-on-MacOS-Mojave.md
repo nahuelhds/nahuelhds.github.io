@@ -4,13 +4,11 @@ description: You only have to follow these two steps
 date: '2018-11-22T13:29:06.953Z'
 categories: []
 keywords: []
-slug: /@nahuelhds/setup-dark-mode-in-slack-on-macos-mojave-4da1cc089a94
 ---
-
-### How to set up Dark Mode in Slack on MacOS Mojave in two steps
 
 ![This is what you get after following these simple instructions](img/1__NVjk4Iy__c6ZSkfpxuQAkNA.png)
 This is what you get after following these simple instructions
+{: style="color:gray; font-size: 80%; text-align: center;"}
 
 ### June 2019 update 💁‍♂️
 
@@ -24,27 +22,31 @@ _Credits to_ [_this Gist_](https://gist.github.com/a7madgamal/c2ce04dde8520f4260
 
 ### First, configure the general theme 👨‍💻
 
-1.  Close slack
-2.  Open this file `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
-3.  Append this at the very bottom
+1. Close slack
+1. Open this file `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
+1. Append this at the very bottom
 
-document.addEventListener('DOMContentLoaded', function() {  
-    let tt\_\_customCss = '.menu ul li a:not(.inline\_menu\_link) {color: #fff !important;}'  
-    $.ajax({  
-         url: '[https://cdn.jsdelivr.net/gh/laCour/slack-night-mode@master/css/raw/black.css](https://cdn.jsdelivr.net/gh/laCour/slack-night-mode@master/css/raw/black.css)['](https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css%27),  
-        success: function(css) {  
-            $('<style></style>').appendTo('head').html(css + tt\_\_customCss);  
-        }  
-   });  
+```js
+document.addEventListener('DOMContentLoaded', function() {
+    let tt__customCss = '.menu ul li a:not(.inline_menu_link) {color: #fff !important;}'
+    $.ajax({
+        url: 'https://cdn.jsdelivr.net/gh/laCour/slack-night-mode@master/css/raw/black.css',
+        success: function(css) {
+            $('<style></style>').appendTo('head').html(css + tt__customCss);
+        }
+   });
 });
+```
 
 ### Second, choose a proper sidebar theme 💅
 
-1.  Go to Preferences / Sidebar
-2.  At the end of that page, choose to set a custom color
-3.  Paste this custom theme:
+1. Go to Preferences / Sidebar
+1. At the end of that page, choose to set a custom color
+1. Paste this custom theme:
 
+```bash
 #171717,#404245,#424242,#ECF0F1,#4A4A4A,#FAFAFA,#2ECC71,#00A362
+```
 
 You can see other sidebar themes at [Slack Theme](https://slackthemes.net). The one I chose is [Green Lantern](https://slackthemes.net/#/green_lantern).
 
@@ -60,23 +62,26 @@ Well, not anymore.
 
 First, create a bash script with the following content.
 
+```sh
 #/bin/sh
 
-FILE=/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js  
-CSS\_SOURCE=[https://cdn.jsdelivr.net/gh/laCour/slack-night-mode@master/css/raw/black.css](https://cdn.jsdelivr.net/gh/laCour/slack-night-mode@master/css/raw/black.css)
+FILE=/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
+CSS_SOURCE=https://cdn.jsdelivr.net/gh/laCour/slack-night-mode@master/css/raw/black.css
 
 cat >>$FILE <<EOL
 
-document.addEventListener('DOMContentLoaded', function() {  
-    let tt\_\_customCss = '.menu ul li a:not(.inline\_menu\_link) {color: #fff !important;}'  
-    $.ajax({  
-        url: '$CSS\_SOURCE',  
-        success: function(css) {  
-            \\$('<style></style>').appendTo('head').html(css + tt\_\_customCss);  
-        }  
-   });  
-});  
+document.addEventListener('DOMContentLoaded', function() {
+    let tt__customCss = '.menu ul li a:not(.inline_menu_link) {color: #fff !important;}'
+    $.ajax({
+        url: '$CSS_SOURCE',
+        success: function(css) {
+            \$('<style></style>').appendTo('head').html(css + tt__customCss);
+        }
+   });
+});
 EOL
+
+```
 
 Save it to file “slack-apply-dark-theme.sh.command”. [The **.command** makes the file double-clickable from the Finder](https://stackoverflow.com/a/29710607/1588525).
 

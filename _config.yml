@@ -1,13 +1,14 @@
 # Site settings
 title: "Un desarrollador cualquiera"
 email: "nsotelo@cristalmedia.net"
-description: "Anotaciones sobre desarrollo web y mobile."
+description: "Pequeños aportes tecnológicos"
 
 baseurl: ""
 url: "http://nahuelhds.github.io"
 
 twitter_username: "nahuelhds"
 github_username:  "nahuelhds"
+instagram_username: "nahuelhds"
 
 timezone: "America/Argentina/Buenos_Aires"
 
@@ -15,6 +16,7 @@ timezone: "America/Argentina/Buenos_Aires"
 markdown: "kramdown"
 kramdown:
   input: "GFM"
+
 include:
   - "_img"
 

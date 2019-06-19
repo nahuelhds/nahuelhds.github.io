@@ -1,18 +1,19 @@
 ---
-title: "#UruguayDecide: los robots también opinan… `\U0001F916`"
+title: "#UruguayDecide: los robots también opinan… \U0001F916"
 description: >-
   Análisis de datos automatizado sobre el texto completo del debate entre entre
   Óscar Andrade y Ernesto Talvi, mediante técnicas de…
 date: '2019-06-19T13:49:59.026Z'
 categories: []
 keywords: []
-slug: /@nahuelhds/uruguaydecide-los-robots-tambi%C3%A9n-opinan-8f2f9deb6fef
+published: true
 ---
 
 En esta publicación vamos a ver cómo con un robot analizamos el #UruguayDecide que el pasado Jueves 13 de Junio tuvo a buena parte de la población expectante. 🇺🇾🇺🇾🇺🇾
 
 ![Así vería un robot a Óscar Andrade y a Ernesto Talvi respectivamente, luego de todo lo que dijeron durante el debate.](img/1__TwaO6HcPoAFWbXjgElX1pg.jpeg)
 Así vería un robot a Óscar Andrade y a Ernesto Talvi respectivamente, luego de todo lo que dijeron durante el debate.
+{: style="color:gray; font-size: 80%; text-align: center;"}
 
 ### ¿Un robot sacando conclusiones? 🤔
 
@@ -22,8 +23,10 @@ A ese conjunto de algoritmos y técnicas se lo conoce como [**Procesamiento de L
 
 El código de fue hecho en Python, utilizando las librerías [NLTK](https://www.nltk.org/) y [word\_cloud](https://amueller.github.io/word_cloud/). Por si hay algún **nerd** en la sala, les dejo el código del proyecto en Github para que lo puedan revisar en detalle.
 
-[**nahuelhds/simple-text-analysis-nlp**  
-_Algoritmos hechos en Python para analizar textos, tokenizarlos y generar nubes de palabras de forma simple. …_github.com](https://github.com/nahuelhds/simple-text-analysis-nlp "https://github.com/nahuelhds/simple-text-analysis-nlp")[](https://github.com/nahuelhds/simple-text-analysis-nlp)
+<!-- markdownlint-disable MD033 -->
+<div class="github-card" data-github="nahuelhds/simple-text-analysis-nlp" data-width="400" data-height="177" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<!-- markdownlint-enable MD033 -->
 
 Todo el material crudo que se produjo para esta publicación, [se encuentra en la carpeta de ejemplos](https://github.com/nahuelhds/rob-el-robot-nlp/tree/master/examples/andrade-vs-talvi).
 
@@ -57,6 +60,7 @@ Como para variar, también contamos con la posibilidad de detectar sentimientos 
 
 ![Según el bot, el debate estuvo dominado por frases de carácter neutral.](img/1__Lsf__8FkPcIS1sX0tU77aBQ.png)
 Según el bot, el debate estuvo dominado por frases de carácter neutral.
+{: style="color:gray; font-size: 80%; text-align: center;"}
 
 Como se puede apreciar, el debate no fue muy Disney que digamos, aunque tampoco el horror personificado. Por el contrario, **el debate** tuvo momentos de frases consideradas negativas y más que nada **se vistió de neutralidad en el discurso** lo cual -agrego yo- es esperable para un debate de caracter institucional y democrático.
 
@@ -99,7 +103,9 @@ Según el bot, estas fueron las tres ideas/conceptos de cada precandidato en tod
 #### Lo fundamental de Óscar Andrade
 
 ![Óscar Andrade en el acto 48 aniversario del Frente Amplio. Foto: Darwin Borrelli](img/0__C67MqLcQFndI6I1C.jpg)
+
 Óscar Andrade en el acto 48 aniversario del Frente Amplio. Foto: Darwin Borrelli
+{: style="color:gray; font-size: 80%; text-align: center;"}
 
 La primera frase, _la que resume todo_, fue pronunciada en el contexto del cuarto eje del debate, sobre el rol del Estado en la economía y en la vida, y en referencia a los docentes, la educación y la investigación.
 
@@ -118,7 +124,9 @@ Adicionalmente, observen que esta última frase, considerada como tercera en cua
 #### Lo fundamental de Ernesto Talvi
 
 ![Foto: [www.teledoce.com](http://www.teledoce.com)](img/0__H2ALEcjPM5nSL0RB.jpg)
+
 Foto: [www.teledoce.com](http://www.teledoce.com)
+{: style="color:gray; font-size: 80%; text-align: center;"}
 
 La primera frase, la fundamental, _la que resume al precandidato colorado,_ fue dicha en el primer eje que fue sobre el balance del gobierno del Frente Amplio.
 
