@@ -3,7 +3,7 @@ title: "#UruguayDecide: los robots también opinan… \U0001F916"
 description: >-
   Análisis de datos automatizado sobre el texto completo del debate entre entre
   Óscar Andrade y Ernesto Talvi, mediante técnicas de…
-date: '2019-06-19T13:49:59.026Z'
+date: "2019-06-19T13:49:59.026Z"
 categories: []
 keywords: []
 published: true
@@ -21,10 +21,10 @@ Bueno, quizás no sea tan así. Lo que es real es que a partir de algunos algori
 
 A ese conjunto de algoritmos y técnicas se lo conoce como [**Procesamiento de Lenguaje Natural**](https://en.wikipedia.org/wiki/Natural_language_processing) (PLN o **NLP** por sus siglas en inglés). Para el análisis de este debate, programé un “bot” (un conjunto de algoritmos) donde se aplicó NLP sobre el debate de #UruguayDecide entre Andrade y Talvi.
 
-El código de fue hecho en Python, utilizando las librerías [NLTK](https://www.nltk.org/) y [word\_cloud](https://amueller.github.io/word_cloud/). Por si hay algún **nerd** en la sala, les dejo el código del proyecto en Github para que lo puedan revisar en detalle.
+El código de fue hecho en Python, utilizando las librerías [NLTK](https://www.nltk.org/) y [word_cloud](https://amueller.github.io/word_cloud/). Por si hay algún **nerd** en la sala, les dejo el código del proyecto en Github para que lo puedan revisar en detalle.
 
 <!-- markdownlint-disable MD033 -->
-<div class="github-card" data-github="nahuelhds/simple-text-analysis-nlp" data-width="400" data-height="177" data-theme="default"></div>
+<div class="github-card" data-github="nahuelhds/simple-text-analysis-nlp" data-width="740" data-height="177" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <!-- markdownlint-enable MD033 -->
 
@@ -144,12 +144,12 @@ Y la tercera frase, en el contexto de las propuesta para un próximo gobierno co
 
 Hasta acá el análisis que nos proveyó el bot para este #UruguayDebate.
 
-*   ¿Se podrían hacer más cosas? Seguramente sí. Por ejemplo realizar un análisis similar al de esta publicación pero por cada uno de los seis ejes. Hay algunas técnicas NLP que quedaron fuera de este análisis y que también podrían ser incluidas. El proyecto está ahí para que cualquiera que tenga ganas pueda hacerlo 😉
-*   La idea original fue de [@GastoDuffour](http://twitter.com/GastoDuffour), quien estaba interesado en ver qué datos podía arrojar este tipo de análisis. Sabe que me cuelgo con estas cosas, y de hecho así sucedió.
-*   La transcripción de los discursos la hice con [Sonix](https://sonix.ai) y los videos del debate los descargué de Youtube.
-*   Más allá de todo ese trabajo que me ahorró la transcripción automatizada, hice una revisión general para pulir el texto -aunque no fui muy exigente, debo admitir- y separar los fragmentos de moderación, de cada precandidato, etc. Esto para poder procesarlos individualmente con los algoritmos.
-*   El texto completo de la transcripción del #UruguayDebate está [disponible en este documento de Google](https://docs.google.com/document/d/1tYyYXfoejbwbRKXUsofSOd0uXfEBc2G7yiRol_sVDPc/edit?usp=sharing).
-*   Los gráficos incluidos en esta publicación, [se pueden ver en este Google Sheet](https://docs.google.com/spreadsheets/u/1/d/1lWCehkTTS1Cm4WxiIB2AzhMrHrISYHTZRRoe3p2vIKw/edit?usp=sharing), donde también están las tablas de datos utilizadas que fueron generadas por los algoritmos del proyecto.
+- ¿Se podrían hacer más cosas? Seguramente sí. Por ejemplo realizar un análisis similar al de esta publicación pero por cada uno de los seis ejes. Hay algunas técnicas NLP que quedaron fuera de este análisis y que también podrían ser incluidas. El proyecto está ahí para que cualquiera que tenga ganas pueda hacerlo 😉
+- La idea original fue de [@GastoDuffour](http://twitter.com/GastoDuffour), quien estaba interesado en ver qué datos podía arrojar este tipo de análisis. Sabe que me cuelgo con estas cosas, y de hecho así sucedió.
+- La transcripción de los discursos la hice con [Sonix](https://sonix.ai) y los videos del debate los descargué de Youtube.
+- Más allá de todo ese trabajo que me ahorró la transcripción automatizada, hice una revisión general para pulir el texto -aunque no fui muy exigente, debo admitir- y separar los fragmentos de moderación, de cada precandidato, etc. Esto para poder procesarlos individualmente con los algoritmos.
+- El texto completo de la transcripción del #UruguayDebate está [disponible en este documento de Google](https://docs.google.com/document/d/1tYyYXfoejbwbRKXUsofSOd0uXfEBc2G7yiRol_sVDPc/edit?usp=sharing).
+- Los gráficos incluidos en esta publicación, [se pueden ver en este Google Sheet](https://docs.google.com/spreadsheets/u/1/d/1lWCehkTTS1Cm4WxiIB2AzhMrHrISYHTZRRoe3p2vIKw/edit?usp=sharing), donde también están las tablas de datos utilizadas que fueron generadas por los algoritmos del proyecto.
 
 ### Nada más por acá
 
@@ -157,6 +157,6 @@ Si llegaste hasta acá, sólo me queda decir gracias. Si te gustó, compartilo p
 
 Si te gusta lo que hago, podés:
 
-*   [Seguir mi actividad en Twitter.](https://twitter.com/nahuelhds)
-*   [Comprarme un café.](https://ko-fi.com/C0C5XC3Z)
-*   [Contribuir conmigo en Patreon.](https://www.patreon.com/nahuelhds)
+- [Seguir mi actividad en Twitter.](https://twitter.com/nahuelhds)
+- [Comprarme un café.](https://ko-fi.com/C0C5XC3Z)
+- [Contribuir conmigo en Patreon.](https://www.patreon.com/nahuelhds)
