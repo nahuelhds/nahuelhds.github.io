@@ -4,6 +4,7 @@ description: You only have to follow these two steps
 date: '2018-11-22T13:29:06.953Z'
 categories: []
 keywords: []
+comments: true
 ---
 
 ![This is what you get after following these simple instructions](img/1__NVjk4Iy__c6ZSkfpxuQAkNA.png)

@@ -6,7 +6,7 @@ description: >-
 date: "2019-06-19T13:49:59.026Z"
 categories: []
 keywords: []
-published: true
+comments: true
 ---
 
 En esta publicación vamos a ver cómo con un robot analizamos el #UruguayDecide que el pasado Jueves 13 de Junio tuvo a buena parte de la población expectante. 🇺🇾🇺🇾🇺🇾
