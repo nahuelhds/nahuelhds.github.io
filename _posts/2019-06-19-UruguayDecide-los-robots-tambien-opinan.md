@@ -151,7 +151,7 @@ Hasta acá el análisis que nos proveyó el bot para este #UruguayDebate.
 - El texto completo de la transcripción del #UruguayDebate está [disponible en este documento de Google](https://docs.google.com/document/d/1tYyYXfoejbwbRKXUsofSOd0uXfEBc2G7yiRol_sVDPc/edit?usp=sharing).
 - Los gráficos incluidos en esta publicación, [se pueden ver en este Google Sheet](https://docs.google.com/spreadsheets/u/1/d/1lWCehkTTS1Cm4WxiIB2AzhMrHrISYHTZRRoe3p2vIKw/edit?usp=sharing), donde también están las tablas de datos utilizadas que fueron generadas por los algoritmos del proyecto.
 
-### Nada más por acá
+### Soy nahuelhds
 
 Si llegaste hasta acá, sólo me queda decir gracias. Si te gustó, compartilo por ahí que quizás a alguien más le puede colgar.
 
