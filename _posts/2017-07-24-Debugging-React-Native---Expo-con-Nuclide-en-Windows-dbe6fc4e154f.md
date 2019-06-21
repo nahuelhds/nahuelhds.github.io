@@ -3,9 +3,13 @@ lang: es
 title: Debugging React Native + Expo con Nuclide en Windows
 description: La experiencia que pudo ser y no fue…
 date: '2017-07-24T11:18:38.083Z'
-categories: []
-keywords: []
-slug: /@nahuelhds/debugging-react-native-expo-con-nuclide-en-windows-dbe6fc4e154f
+categories:
+  - react-native
+keywords:
+  - expo
+  - nuclide
+  - windows
+  - debugging
 ---
 
 ### TL;DR

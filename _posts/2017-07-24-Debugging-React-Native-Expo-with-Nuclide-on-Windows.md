@@ -1,11 +1,15 @@
 ---
-lang: es
+lang: en
 title: Debugging React Native + Expo with Nuclide on Windows
 description: The experience that couldn’t be
 date: '2017-07-24T11:48:42.504Z'
-categories: []
-keywords: []
-slug: /@nahuelhds/debugging-react-native-expo-with-nuclide-on-windows-fb47be0b36ad
+categories:
+  - react-native
+keywords:
+  - expo
+  - nuclide
+  - windows
+  - debugging
 ---
 
 ### TL;DR
