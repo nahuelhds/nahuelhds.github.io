@@ -101,11 +101,3 @@ Finally, set permissions 700 for it. So you’re the only that can use it.
 chmod 700 slack-apply-dark-theme.sh.command
 
 Now, every time you need to apply the dark theme, just double click your brand new file.
-
-### I'm nahuelhds
-
-Thanks for reading. If you like what I do, you can support me in several ways:
-
-- [Following me on Twitter](https://twitter.com/nahuelhds)
-- [Buying me a coffee](https://ko-fi.com/C0C5XC3Z)
-- [Supporting me on Patreon](https://www.patreon.com/nahuelhds)
