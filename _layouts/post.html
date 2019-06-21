@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -11,9 +10,11 @@ comments: true
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+
+    {% include thankyou.html lang=page.lang %}
   </div>
 
-  {% if page.comments %}
+  {% if page.comments != false %}
     {% include disqus.html %}
   {% endif %}
 

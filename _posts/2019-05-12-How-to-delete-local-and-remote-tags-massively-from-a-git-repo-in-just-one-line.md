@@ -1,11 +1,17 @@
 ---
+lang: en
 title: How to delete local and remote tags massively from a git repo in just one line
 description: A one-line command to save you hours of manual work
 date: '2019-05-12T20:24:33.560Z'
-categories: []
-keywords: []
-slug: >-
-  /@nahuelhds/how-to-delete-local-and-remote-tags-massively-from-a-git-repo-in-just-one-line-5852b7474e98
+categories:
+  - git
+keywords:
+  - delete-tag
+  - local-tag
+  - remote-tag
+  - massively
+  - repository
+  - one-line-command
 ---
 
 ![Resultado de imagen para git](https://cdn-images-1.medium.com/max/800/1*4W4fdnO680ysRhFc9ppc8w.jpeg)
@@ -18,16 +24,21 @@ slug: >-
 
 First, a dry run…
 
-**SEMVER=0** && git tag | awk "/^**$SEMVER**.\*/ { print \\$1 }"
+```sh
+SEMVER=0 && git tag | awk "/^$SEMVER.\*/ { print \\$1 }"
+```
 
 This way you see what you’re about to delete.
 
 Now, if you are certain, then bring the chaos…
 
-**SEMVER=0** && git tag | awk "/^**$SEMVER**.\*/ { print \\$1 }" | xargs -I % sh -c "git push origin :%; git tag -d %;"
+```sh
+SEMVER=0 && git tag | awk "/^$SEMVER.\*/ { print \\$1 }" | xargs -I % sh -c "git push origin :%; git tag -d %;"
+```
 
 ![Thanos is so proud of you](img/0__qTUgphZYwzkwxBYl.jpg)
 Thanos is so proud of you
+{:.img-caption}
 
 #### Notes
 
@@ -39,7 +50,9 @@ The **SEMVER** variable is a regular expression used inside the **awk** command.
 
 Let’s see the entire command again for deleting major version 0 and its children.
 
-**SEMVER=0** && git tag | awk "/^**$SEMVER**.\*/ { print \\$1 }" | xargs -I % sh -c "git push origin :%; git tag -d %;"
+```sh
+SEMVER=0 && git tag | awk "/^$SEMVER.\*/ { print \\$1 }" | xargs -I % sh -c "git push origin :%; git tag -d %;"
+```
 
 This one-line-command actually does the following things:
 

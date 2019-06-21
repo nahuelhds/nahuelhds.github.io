@@ -1,11 +1,16 @@
 ---
+lang: en
 title: Optimized React PWA with Firebase and Google Cloud Platform
 description: A boilerplate made for PWA development with React and Firebase deploy.
 date: '2018-10-23T12:18:35.783Z'
-categories: []
-keywords: []
-slug: >-
-  /@nahuelhds/optimized-react-pwa-with-firebase-and-google-cloud-platform-5168563a6671
+categories:
+  - boilerplates
+keywords:
+  - react
+  - webpack
+  - google-cloud-platform
+  - firestore
+  - material-ui
 ---
 
 ![](img/0__gLaP4yAbKEXvmBZi.jpg)
@@ -14,8 +19,10 @@ These last days I’ve been experimenting a little with PWA and React in a [pers
 
 You can use my repo as a PWA boilerplate in order to jump directly to code with React without worrying in the details.
 
-[**nahuelhds/react-pwa-guide-app-v2**  
-_React.js for Progressive Web Apps that say Hello! World — nahuelhds/react-pwa-guide-app-v2_github.com](https://github.com/nahuelhds/react-pwa-guide-app-v2 "https://github.com/nahuelhds/react-pwa-guide-app-v2")[](https://github.com/nahuelhds/react-pwa-guide-app-v2)
+<!-- markdownlint-disable MD033 -->
+<div class="github-card" data-github="nahuelhds/react-pwa-guide-app-v2" data-width="100%" data-height="auto" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<!-- markdownlint-enable MD033 -->
 
 ### Features
 

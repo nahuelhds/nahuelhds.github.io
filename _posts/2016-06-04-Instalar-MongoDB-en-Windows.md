@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Instalar MongoDB en Windows"
 categories: mongodb mean
 tags: mongo, mongodb, windows

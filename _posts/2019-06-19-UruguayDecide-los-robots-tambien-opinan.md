@@ -1,19 +1,31 @@
 ---
-title: "#UruguayDecide: los robots también opinan… \U0001F916"
+lang: es
+title: "#UruguayDecide: los robots también opinan… 🤖"
 description: >-
   Análisis de datos automatizado sobre el texto completo del debate entre entre
   Óscar Andrade y Ernesto Talvi, mediante técnicas de…
 date: "2019-06-19T13:49:59.026Z"
-categories: []
-keywords: []
-comments: true
+categories:
+  - data-science
+keywords:
+  - natural-language-processing
+  - text-analysis
+  - text-summarize
+  - sentiment-analisis
+  - uruguay
+  - decide
+  - uruguay-decide
+  - boca-andrade
+  - ernesto-talvi
+  - andrade
+  - talvi
 ---
 
 En esta publicación vamos a ver cómo con un robot analizamos el #UruguayDecide que el pasado Jueves 13 de Junio tuvo a buena parte de la población expectante. 🇺🇾🇺🇾🇺🇾
 
 ![Así vería un robot a Óscar Andrade y a Ernesto Talvi respectivamente, luego de todo lo que dijeron durante el debate.](img/1__TwaO6HcPoAFWbXjgElX1pg.jpeg)
 Así vería un robot a Óscar Andrade y a Ernesto Talvi respectivamente, luego de todo lo que dijeron durante el debate.
-{: style="color:gray; font-size: 80%; text-align: center;"}
+{: .img-caption }
 
 ### ¿Un robot sacando conclusiones? 🤔
 
@@ -24,7 +36,7 @@ A ese conjunto de algoritmos y técnicas se lo conoce como [**Procesamiento de L
 El código de fue hecho en Python, utilizando las librerías [NLTK](https://www.nltk.org/) y [word_cloud](https://amueller.github.io/word_cloud/). Por si hay algún **nerd** en la sala, les dejo el código del proyecto en Github para que lo puedan revisar en detalle.
 
 <!-- markdownlint-disable MD033 -->
-<div class="github-card" data-github="nahuelhds/simple-text-analysis-nlp" data-width="740" data-height="177" data-theme="default"></div>
+<div class="github-card" data-github="nahuelhds/simple-text-analysis-nlp" data-width="100%" data-height="auto" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <!-- markdownlint-enable MD033 -->
 
@@ -59,8 +71,7 @@ En cuanto a la _data dura_ de las palabras pronunciadas y en comparación a su a
 Como para variar, también contamos con la posibilidad de detectar sentimientos en las frases que se pronuncian. Por lo que podríamos determinar si el debate fue una fiesta de flores y alegría, o un horror apocalíptico donde todos vamos a morir.
 
 ![Según el bot, el debate estuvo dominado por frases de carácter neutral.](img/1__Lsf__8FkPcIS1sX0tU77aBQ.png)
-Según el bot, el debate estuvo dominado por frases de carácter neutral.
-{: style="color:gray; font-size: 80%; text-align: center;"}
+Según el bot, el debate estuvo dominado por frases de carácter neutral.{: .img-caption }
 
 Como se puede apreciar, el debate no fue muy Disney que digamos, aunque tampoco el horror personificado. Por el contrario, **el debate** tuvo momentos de frases consideradas negativas y más que nada **se vistió de neutralidad en el discurso** lo cual -agrego yo- es esperable para un debate de caracter institucional y democrático.
 
@@ -105,7 +116,7 @@ Según el bot, estas fueron las tres ideas/conceptos de cada precandidato en tod
 ![Óscar Andrade en el acto 48 aniversario del Frente Amplio. Foto: Darwin Borrelli](img/0__C67MqLcQFndI6I1C.jpg)
 
 Óscar Andrade en el acto 48 aniversario del Frente Amplio. Foto: Darwin Borrelli
-{: style="color:gray; font-size: 80%; text-align: center;"}
+{: .img-caption }
 
 La primera frase, _la que resume todo_, fue pronunciada en el contexto del cuarto eje del debate, sobre el rol del Estado en la economía y en la vida, y en referencia a los docentes, la educación y la investigación.
 
@@ -126,7 +137,7 @@ Adicionalmente, observen que esta última frase, considerada como tercera en cua
 ![Foto: [www.teledoce.com](http://www.teledoce.com)](img/0__H2ALEcjPM5nSL0RB.jpg)
 
 Foto: [www.teledoce.com](http://www.teledoce.com)
-{: style="color:gray; font-size: 80%; text-align: center;"}
+{: .img-caption }
 
 La primera frase, la fundamental, _la que resume al precandidato colorado,_ fue dicha en el primer eje que fue sobre el balance del gobierno del Frente Amplio.
 
@@ -150,13 +161,3 @@ Hasta acá el análisis que nos proveyó el bot para este #UruguayDebate.
 - Más allá de todo ese trabajo que me ahorró la transcripción automatizada, hice una revisión general para pulir el texto -aunque no fui muy exigente, debo admitir- y separar los fragmentos de moderación, de cada precandidato, etc. Esto para poder procesarlos individualmente con los algoritmos.
 - El texto completo de la transcripción del #UruguayDebate está [disponible en este documento de Google](https://docs.google.com/document/d/1tYyYXfoejbwbRKXUsofSOd0uXfEBc2G7yiRol_sVDPc/edit?usp=sharing).
 - Los gráficos incluidos en esta publicación, [se pueden ver en este Google Sheet](https://docs.google.com/spreadsheets/u/1/d/1lWCehkTTS1Cm4WxiIB2AzhMrHrISYHTZRRoe3p2vIKw/edit?usp=sharing), donde también están las tablas de datos utilizadas que fueron generadas por los algoritmos del proyecto.
-
-### Soy nahuelhds
-
-Si llegaste hasta acá, sólo me queda decir gracias. Si te gustó, compartilo por ahí que quizás a alguien más le puede colgar.
-
-Si te gusta lo que hago, podés:
-
-- [Seguir mi actividad en Twitter.](https://twitter.com/nahuelhds)
-- [Comprarme un café.](https://ko-fi.com/C0C5XC3Z)
-- [Contribuir conmigo en Patreon.](https://www.patreon.com/nahuelhds)

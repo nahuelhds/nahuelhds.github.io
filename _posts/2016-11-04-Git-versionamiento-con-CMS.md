@@ -1,4 +1,5 @@
 ---
+lang: es
 title: Git. Versionamiento con CMS
 published: true
 categories: git

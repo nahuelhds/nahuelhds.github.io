@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  'Solución a npm install ...killed'
 categories: node 
 tags: node, npm, server

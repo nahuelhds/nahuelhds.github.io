@@ -1,13 +1,16 @@
 ---
+lang: es
 title: >-
   Cómo instalar múltiples versiones de PHP en Apache con Homebrew y no morir en
   el intento…
 description: Actualización de Mayo de 2019
 date: '2017-10-17T14:29:30.937Z'
-categories: []
-keywords: []
-slug: >-
-  /@nahuelhds/c%C3%B3mo-instalar-m%C3%BAltiples-versiones-de-php-en-apache-con-homebrew-y-no-morir-en-el-intento-9b4de6f1e327
+categories:
+  - brew
+keywords:
+  - homebrew
+  - php
+  - multiple-php
 ---
 
 ![](img/1__ZDOzg6V661UtBKQiGRWVQw.png)
@@ -32,12 +35,14 @@ De todos modos, hay algunos inconvenientes (menores la verdad) que me surgieron 
 
 Es necesario instalar las extensiones de PHP con la opción `--build-from-source` ya que [de otro modo darán error](https://github.com/Homebrew/homebrew-php/issues/2475). Entonces, cuando en el tuto diga de instalar las extensiones, esos comandos quedan así:
 
+```sh
 brew install php{xy}-{extension} --build-from-source
+```
 
 Donde:
 
-*   xy: version de php: 55, 56, 70 o 71.
-*   extension: módulo a integrar: apcu, opcache, yaml o xdebug
+* **xy:** version de php: 55, 56, 70 o 71.
+* **extension:** módulo a integrar: apcu, opcache, yaml o xdebug
 
 Si ya se instaló y da error, entonces correr `brew reinstall`
 
@@ -49,30 +54,37 @@ La guía olvida mencionar que en Apache hay que agregar el comando `Listen 443` 
 
 Esta me tuvo todo el fin de semana y no era nada complicado al final…
 
-![](img/1__9pqxqRnUXF09vIcHX__BY0g.png)
+![](img/1__9pqxqRnUXF09vIcHX__BY0g.png){: .img-responsive }
 
 La extensión mysql no viene pre-instalada en Homebrew PHP (como sí sucede con mysqli). Para colmo al intentar hacerlo con la opción`--with-libmysql` da error al no encontrar unas librerías en el directorio `/usr/local/bin`. [Por suerte existe Github](https://github.com/Homebrew/homebrew-php/issues/4501#issuecomment-337139957).
 
 En resumen, primero hay que instalar MySQL:
 
+```sh
 brew install mysql
+```
 
 Luego, parar el servicio MariaDB y desmontarlo para luego montar MySQL.
 
+```sh
 brew services stop mariadb  
 brew unlink mariadb  
 brew link mysql
+```
 
 Una vez hecho esto, hay que ir a`/usr/local/lib` y duplicar y renombrar los siguientes dos archivos
 
-```
-libmysqlclient.a     -> libmysqlclient_r.alibmysqlclient.dylib -> libmysqlclient_r.dylib
+```sh
+libmysqlclient.a     -> libmysqlclient_r.a
+libmysqlclient.dylib -> libmysqlclient_r.dylib
 ```
 
 Ahora sí se puede (re)instalar php56 con la vieja librería mysql:
 
+```sh
 brew install php55 --with-httpd --with-libmysql  
 brew install php56 --with-httpd --with-libmysql
+```
 
 Si ya instalaste php56, reemplazá `install` por `reinstall`.
 
@@ -80,4 +92,4 @@ Si ya instalaste php56, reemplazá `install` por `reinstall`.
 
 A codear se ha dicho.
 
-![](img/1__o0RaJxltpHX03VGW9F__vrg.png)
+![](img/1__o0RaJxltpHX03VGW9F__vrg.png){: .img-responsive }

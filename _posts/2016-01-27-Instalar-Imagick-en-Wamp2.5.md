@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Instalar Imagick en Wamp 2.5"
 categories: wamp
 tags: wamp, imagick

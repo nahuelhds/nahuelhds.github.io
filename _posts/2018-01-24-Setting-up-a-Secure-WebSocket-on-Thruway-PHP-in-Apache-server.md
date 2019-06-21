@@ -1,13 +1,19 @@
 ---
+lang: en
 title: Setting up a Secure WebSocket on Thruway (PHP) in Apache server
 description: >-
   If you have a working websocket server voryx/Thruway you probably want to know
   how to configure it to make it work with secure websocket…
 date: '2018-01-24T03:17:32.847Z'
-categories: []
-keywords: []
-slug: >-
-  /@nahuelhds/setting-up-a-secure-websocket-on-thruway-php-in-apache-server-95581d098104
+categories:
+  - server
+keywords:
+  - apache
+  - websocket
+  - php
+  - thruway
+  - tls
+  - ssl
 ---
 
 ![](img/1__N08XZ82dODX22Nuw0H1J0w.jpeg)
@@ -39,20 +45,24 @@ You need to modify the`httpd.conf` file and enable the following modules:
 
 Then you need to configure the virtual host for HTTPS and WSS proxy redirection:
 
-```
-<VirtualHost *:443>  # Common SSL Config  ServerName my-site.test
-```
-
-```
-  SSLEngine on  SSLCertificateFile "/usr/local/etc/httpd/server.crt"  SSLCertificateKeyFile "/usr/local/etc/httpd/server.key"
-```
-
-```
-  DocumentRoot "/Users/nahuelhds/Sites/my/site"  <Directory  "/Users/nahuelhds/Sites/my/site">    Options +Indexes +FollowSymLinks +MultiViews    AllowOverride All    Require local  </Directory>
-```
-
-```
-  # Websocket proxy  # wss redirects to working ws protocol  ProxyPass /wss ws://127.0.0.1:9090 retry=0 keepalive=On   ProxyPassReverse /wss ws://127.0.0.1:9090 retry=0 </VirtualHost>
+```apache
+<VirtualHost *:443>
+  # Common SSL Config
+  ServerName my-site.test
+  SSLEngine on
+  SSLCertificateFile "/usr/local/etc/httpd/server.crt"
+  SSLCertificateKeyFile "/usr/local/etc/httpd/server.key"
+  DocumentRoot "/Users/nahuelhds/Sites/my/site"
+  <Directory  "/Users/nahuelhds/Sites/my/site">
+    Options +Indexes +FollowSymLinks +MultiViews
+    AllowOverride All
+    Require local
+  </Directory>
+  # Websocket proxy
+  # wss redirects to working ws protocol
+  ProxyPass /wss ws://127.0.0.1:9090 retry=0 keepalive=On 
+  ProxyPassReverse /wss ws://127.0.0.1:9090 retry=0 
+</VirtualHost>
 ```
 
 Restart Apache to impact the changes.

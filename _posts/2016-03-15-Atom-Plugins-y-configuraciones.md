@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Atom - Plugins y configuraciones"
 categories: atom
 tags: atom

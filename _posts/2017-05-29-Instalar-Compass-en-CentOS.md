@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Instalar Compass en CentOS"
 categories: sass
 tags: centos, sass, compass, ruby

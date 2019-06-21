@@ -1,15 +1,24 @@
 ---
+lang: es
 title: Cómo bloquear anuncios de Youtube con Adblock Plus en tu navegador
 description: 'Hoy, en “Cosas que quizás no sabías…”'
 date: '2019-05-16T13:17:27.668Z'
-categories: []
-keywords: []
-slug: >-
-  /@nahuelhds/c%C3%B3mo-bloquear-anuncios-de-youtube-con-adblock-plus-en-cualquier-navegador-b8d7ac3a5dc3
+categories:
+  - hacks
+keywords:
+  - youtube
+  - bloquear-anuncios
+  - adblock-plus
+  - desktop
+  - navegador
+  - browser
+  - chrome
+  - safari
 ---
 
 ![[Sitio de Adblock Plus](https://adblockplus.org/)](img/1__QAi2UndFZsIGpSOcWJS4TQ.png)
 [Sitio de Adblock Plus](https://adblockplus.org/)
+{:.img-caption}
 
 Te paso las instrucciones para dejar de escuchar anuncios molestos mientras estás haciendo cosas lejos de la compu con Youtube de fondo.
 

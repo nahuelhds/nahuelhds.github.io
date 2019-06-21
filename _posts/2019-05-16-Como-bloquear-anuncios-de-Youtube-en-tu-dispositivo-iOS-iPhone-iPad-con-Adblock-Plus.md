@@ -1,16 +1,24 @@
 ---
+lang: es
 title: >-
   Cómo bloquear anuncios de Youtube en tu dispositivo iOS (iPhone/iPad) con
   Adblock Plus
-description: 'Hoy, en “Cosas que quizás no sabías…”'
-date: '2019-05-16T13:56:52.082Z'
-categories: []
-keywords: []
-slug: >-
-  /@nahuelhds/c%C3%B3mo-bloquear-anuncios-de-youtube-con-adblock-plus-en-tu-ios-iphone-ipad-etc-7aa7f18d7c10
+description: 'Hoy, en "Cosas que quizás no sabías…"'
+date: "2019-05-16T13:56:52.082Z"
+categories:
+  - hacks
+keywords:
+  - youtube
+  - bloquear-anuncios
+  - adblock-plus
+  - mobile
+  - ios
+  - iphone
+  - ipad
+  - safari
 ---
 
-![](img/0__NA8A__QSl__gfS9Xk2.gif)
+![](img/0__NA8A__QSl__gfS9Xk2.gif){: .img-responsive }
 
 #### **Marge, no voy a mentirte…**
 

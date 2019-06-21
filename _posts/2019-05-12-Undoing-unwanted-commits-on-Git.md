@@ -1,12 +1,17 @@
 ---
+lang: en
 title: Undoing unwanted commits on Git
 description: >-
   I’m sure that once in a while, it just happens that you made a mistake. That’s
   ok. It happens.
 date: '2019-05-12T03:44:20.530Z'
-categories: []
-keywords: []
-slug: /@nahuelhds/undoing-unwanted-commits-on-git-5dd100082ed8
+categories:
+  - git
+keywords:
+  - git
+  - undoing
+  - fixing
+  - removing
 ---
 
 I’m sure that once in a while, it just happens that you made a mistake. That’s ok. It happens.

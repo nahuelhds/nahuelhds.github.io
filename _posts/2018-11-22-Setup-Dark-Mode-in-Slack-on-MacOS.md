@@ -1,17 +1,23 @@
 ---
-title: Setup Dark Mode in Slack on MacOS Mojave
+lang: en
+title: Setup Dark Mode in Slack on MacOS
 description: You only have to follow these two steps
-date: '2018-11-22T13:29:06.953Z'
-categories: []
-keywords: []
-comments: true
+date: "2018-11-22T13:29:06.953Z"
+categories:
+  - slack
+keywords:
+  - dark-mode
+  - dark-theme
+  - macos
+  - highsierra
+  - mojave
 ---
 
 ![This is what you get after following these simple instructions](img/1__NVjk4Iy__c6ZSkfpxuQAkNA.png)
 This is what you get after following these simple instructions
-{: style="color:gray; font-size: 80%; text-align: center;"}
+{: .img-caption }
 
-### June 2019 update 💁‍♂️
+### June 2019 update 💁‍
 
 Added a bonus step to the end of the post, for automating the dark theme implementation with a simple double-click. 😁
 
@@ -23,19 +29,23 @@ _Credits to_ [_this Gist_](https://gist.github.com/a7madgamal/c2ce04dde8520f4260
 
 ### First, configure the general theme 👨‍💻
 
-1. Close slack
+1. Close Slack
 1. Open this file `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
 1. Append this at the very bottom
 
 ```js
-document.addEventListener('DOMContentLoaded', function() {
-    let tt__customCss = '.menu ul li a:not(.inline_menu_link) {color: #fff !important;}'
-    $.ajax({
-        url: 'https://cdn.jsdelivr.net/gh/laCour/slack-night-mode@master/css/raw/black.css',
-        success: function(css) {
-            $('<style></style>').appendTo('head').html(css + tt__customCss);
-        }
-   });
+document.addEventListener("DOMContentLoaded", function() {
+  let tt__customCss =
+    ".menu ul li a:not(.inline_menu_link) {color: #fff !important;}";
+  $.ajax({
+    url:
+      "https://cdn.jsdelivr.net/gh/laCour/slack-night-mode@master/css/raw/black.css",
+    success: function(css) {
+      $("<style></style>")
+        .appendTo("head")
+        .html(css + tt__customCss);
+    }
+  });
 });
 ```
 

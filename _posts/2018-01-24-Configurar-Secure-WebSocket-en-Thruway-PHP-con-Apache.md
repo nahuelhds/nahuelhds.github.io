@@ -1,12 +1,19 @@
 ---
+lang: es
 title: Configurar Secure WebSocket en Thruway (PHP) con Apache
 description: >-
   Si tenés un servidor websocket funcionando con voryx/Thruway probablemente
   quieras configurarlo para trabar bajo protocolo de encriptación…
 date: '2018-01-24T03:33:06.722Z'
-categories: []
-keywords: []
-slug: /@nahuelhds/configurar-secure-websocket-en-thruway-php-con-apache-6f59e466f082
+categories:
+  - server
+keywords:
+  - apache
+  - websocket
+  - php
+  - thruway
+  - tls
+  - ssl
 ---
 
 ![](img/1__N08XZ82dODX22Nuw0H1J0w.jpeg)
@@ -38,20 +45,24 @@ Necesitás modificar el archivo`httpd.conf` agregando los siguientes módulos:
 
 Luego, es necesario configurar el virtual host para la conexión HTTPS y la redirección WSS al WS mediante el proxy:
 
-```
-<VirtualHost *:443>  # Configuración SSL habitual  ServerName my-site.test
-```
-
-```
-SSLEngine on  SSLCertificateFile "/usr/local/etc/httpd/server.crt"  SSLCertificateKeyFile "/usr/local/etc/httpd/server.key"
-```
-
-```
-DocumentRoot "/Users/nahuelhds/Sites/my/site"  <Directory  "/Users/nahuelhds/Sites/my/site">    Options +Indexes +FollowSymLinks +MultiViews    AllowOverride All    Require local  </Directory>
-```
-
-```
-  # Websocket proxy  # wss redirigie al ws funcionando de la manera habitual  ProxyPass /wss ws://127.0.0.1:9090 retry=0 keepalive=On   ProxyPassReverse /wss ws://127.0.0.1:9090 retry=0 </VirtualHost>
+```apache
+<VirtualHost *:443>
+  # Common SSL Config
+  ServerName my-site.test
+  SSLEngine on
+  SSLCertificateFile "/usr/local/etc/httpd/server.crt"
+  SSLCertificateKeyFile "/usr/local/etc/httpd/server.key"
+  DocumentRoot "/Users/nahuelhds/Sites/my/site"
+  <Directory  "/Users/nahuelhds/Sites/my/site">
+    Options +Indexes +FollowSymLinks +MultiViews
+    AllowOverride All
+    Require local
+  </Directory>
+  # Websocket proxy
+  # wss redirects to working ws protocol
+  ProxyPass /wss ws://127.0.0.1:9090 retry=0 keepalive=On 
+  ProxyPassReverse /wss ws://127.0.0.1:9090 retry=0 
+</VirtualHost>
 ```
 
 Reiniciar Apache para que los cambios sean impactados.

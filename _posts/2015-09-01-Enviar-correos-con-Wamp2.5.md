@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Enviar correos con Wamp 2.5"
 categories: wamp
 tags: wamp, email, test mail server tool

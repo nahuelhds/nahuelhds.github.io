@@ -1,12 +1,17 @@
 ---
+lang: en
 title: Enable SSL with OpenSSL and WAMP on Windows 10
 description: >-
   If you need to enable SSL for your local development process on Windows, you
   know that can be a nightmare…
 date: '2019-05-12T22:22:02.318Z'
-categories: []
-keywords: []
-slug: /@nahuelhds/enable-ssl-with-openssl-and-wamp-on-windows-10-fdcd8f4d6958
+categories: 
+  - wamp
+keywords:
+  - ssl
+  - windows10
+  - openssl
+  - wamp
 ---
 
 ![](img/0__HC__ouHIX5ypCpxsF.jpg)

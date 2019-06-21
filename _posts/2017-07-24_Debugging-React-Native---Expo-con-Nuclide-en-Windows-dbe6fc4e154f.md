@@ -1,4 +1,5 @@
 ---
+lang: es
 title: Debugging React Native + Expo con Nuclide en Windows
 description: La experiencia que pudo ser y no fue…
 date: '2017-07-24T11:18:38.083Z'

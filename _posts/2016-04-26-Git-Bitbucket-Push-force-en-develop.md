@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Git & Bitbucket: sobreescribir la historia de master/develop en Bitbucket"
 categories: git bitbucket
 tags: git, bitbucket, push, force

@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Actualizar a Ruby 2 en CentOS"
 categories: servidor
 tags: centos, ruby, yum

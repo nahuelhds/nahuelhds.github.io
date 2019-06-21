@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Solución micrófono bajo en Skype"
 categories: otros
 tags: skype, microfono, realtek

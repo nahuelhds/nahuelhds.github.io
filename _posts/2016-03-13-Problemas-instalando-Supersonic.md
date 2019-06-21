@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Problemas instalando Supersonic"
 categories: mobile
 tags: supersonic, steroids, appgyver, grunt, grunt-contrib

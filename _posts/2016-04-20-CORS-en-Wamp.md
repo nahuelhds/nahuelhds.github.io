@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Implementar CORS en WampServer"
 categories: wamp
 tags: cors, wamp, wampserver, apache, htaccess

@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  'Android Studio - Optimizar tiempo de build de Gradle'
 categories: android 
 tags: android, gradle, build

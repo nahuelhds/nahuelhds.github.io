@@ -1,4 +1,5 @@
 ---
+lang: es
 title:  "Instalar XCache en Wamp (Windows)"
 categories: wamp
 tags: xcache, windows, php, wamp
