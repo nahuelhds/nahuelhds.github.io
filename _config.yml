@@ -1,5 +1,5 @@
 # Site settings
-title: "The programming geek"
+title: "The programming geek 👨‍💻"
 description: "Technical blog for daily coder issues"
 email: "nahuelhds@gmail.com"
 
@@ -8,7 +8,8 @@ url: "https://nahuelhds.dev"
 
 twitter_username: "nahuelhds"
 github_username:  "nahuelhds"
-instagram_username: "nahuelhds"
+instagram_username: "programming.geek"
+facebook_username: "nahuelhds"
 
 timezone: "America/Montevideo"
 
