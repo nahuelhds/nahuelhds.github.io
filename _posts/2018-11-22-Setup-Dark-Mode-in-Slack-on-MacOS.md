@@ -19,11 +19,9 @@ This is what you get after following these simple instructions
 
 ### June 2019 update 💁‍
 
-Added a bonus step at the end of the post, for automating the dark theme implementation with a simple double-click. 😁
-
-Dark mode has arrived for mobile apps. [Read it in the Slack blog itself.](https://get.slack.help/hc/en-us/articles/360019434914-Dark-mode-for-Slack-s-mobile-apps) Desktop dark mode still in progress. Hopefully we can use this little hack here.
-
-Updated the rawgit.com links to jsdelivr.com. (Thanks [Israel Tiomno](https://medium.com/u/7dc15be05be) 🤗)
+- Added a bonus step at the end of the post, for automating the dark theme implementation with a simple double-click. 😁
+- Dark mode has arrived for mobile apps. [Read it in the Slack blog itself.](https://get.slack.help/hc/en-us/articles/360019434914-Dark-mode-for-Slack-s-mobile-apps) Desktop dark mode still in progress. Hopefully we can use this little hack here.
+- Uddated the rawgit.com links to jsdelivr.com. (Thanks [Israel Tiomno](https://medium.com/u/7dc15be05be) 🤗)
 
 _Credits to_ [_this Gist_](https://gist.github.com/a7madgamal/c2ce04dde8520f426005e5ed28da8608)_._
 
