@@ -1,7 +1,7 @@
 # Site settings
-title: "Un desarrollador cualquiera"
+title: "The programming geek"
 email: "nahuelhds@gmail.com"
-description: "Pequeños aportes tecnológicos"
+description: "Technical blog for daily coder issues"
 
 baseurl: ""
 url: "https://nahuelhds.dev"
@@ -10,7 +10,7 @@ twitter_username: "nahuelhds"
 github_username:  "nahuelhds"
 instagram_username: "nahuelhds"
 
-timezone: "America/Argentina/Buenos_Aires"
+timezone: "America/Montevideo"
 
 # Build settings
 markdown: "kramdown"
