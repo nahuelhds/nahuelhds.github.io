@@ -94,10 +94,12 @@ EOL
 
 ```
 
-Save it to file “slack-apply-dark-theme.sh.command”. [The **.command** makes the file double-clickable from the Finder](https://stackoverflow.com/a/29710607/1588525).
+Save it to file “slack-apply-dark-theme.sh.command”. [The **.command** extension makes the file double-clickable from the Finder](https://stackoverflow.com/a/29710607/1588525).
 
 Finally, set permissions 700 for it. So you’re the only that can use it.
 
+```sh
 chmod 700 slack-apply-dark-theme.sh.command
+```
 
 Now, every time you need to apply the dark theme, just double click your brand new file.
