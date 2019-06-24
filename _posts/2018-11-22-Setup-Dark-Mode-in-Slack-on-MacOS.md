@@ -19,7 +19,7 @@ This is what you get after following these simple instructions
 
 ### June 2019 update 💁‍
 
-Added a bonus step to the end of the post, for automating the dark theme implementation with a simple double-click. 😁
+Added a bonus step at the end of the post, for automating the dark theme implementation with a simple double-click. 😁
 
 Dark mode has arrived for mobile apps. [Read it in the Slack blog itself.](https://get.slack.help/hc/en-us/articles/360019434914-Dark-mode-for-Slack-s-mobile-apps) Desktop dark mode still in progress. Hopefully we can use this little hack here.
 
