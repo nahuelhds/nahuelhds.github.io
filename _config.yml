@@ -1,7 +1,7 @@
 # Site settings
 title: "The programming geek"
-email: "nahuelhds@gmail.com"
 description: "Technical blog for daily coder issues"
+email: "nahuelhds@gmail.com"
 
 baseurl: ""
 url: "https://nahuelhds.dev"
