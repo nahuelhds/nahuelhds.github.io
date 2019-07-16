@@ -17,6 +17,10 @@ keywords:
 This is what you get after following these simple instructions
 {: .img-caption }
 
+### July 2019 update 😭
+
+The Slack version 4.0.0 is not compatible with this solution. Need to investigate and if we can do this in this version as well.
+
 ### June 2019 update 💁‍
 
 - Added a bonus step at the end of the post, for automating the dark theme implementation with a simple double-click. 😁
