@@ -38,14 +38,14 @@ Uno podría pensar:
 
 -Bueno, seguro igual se puede normalizar y todo bien... 🤔
 
-No contar con el DNI, CUIT o cualquier cosa que sirva como ID común entre ambas fuentes de datos es cuanto menos odios. Y depender de nombres y apellidos para la estructuración es por demás imperfecto, ya que según me mostraron y enseñaron gente que realmente trabaja de esto, existen de mínima gente que se llama igual (vaya obviedad, ¿no?) y otras cuestiones más problemáticas aún.
+No contar con el DNI, CUIT o cualquier cosa que sirva como ID común entre ambas fuentes de datos es cuanto menos odioso. Y depender de nombres y apellidos para la estructuración es por demás imperfecto, ya que según me mostraron y enseñaron gente que realmente trabaja de esto, existen de mínima gente que se llama igual (vaya obviedad, ¿no?) y otras cuestiones más problemáticas aún.
 Por suerte, el dominio de datos del API se acota a lo digitalizado -del 93 a la actualidad, en el caso de Diputados y del 2010 a la fecha en el caso de Senadores. Eso reduce el margen de error, pero no lo elimina.
 
 ### ¿Y entonces qué se puede hacer? 🧙‍♂️
 
 Por lo expuesto, la base de datos está sucia. Es mejorable, sí, pero mantiene un núcleo de "suciedad" en sus datos. El caso más común a priori es la duplicidad de legisladores: la misma persona votando en diputados y en senadores, figurando con mismo apellido y mismo nombre pero con una variante, lo que hace que a los efectos de la normalización sea considerado una persona distinta y por ende un ID distinto en el API.
 
-Existen estrategias varias para solventar esta problemática. La más evidente es pensar en presentar esta información bajo una &&plataforma tipo wiki\*\*: algo donde cualquiera pueda editar, volver atrás un cambio, etc. Que comunitariamente sea posible alcanzar una curación con margen de error tendiente a 0.
+Existen estrategias varias para solventar esta problemática. La más evidente es pensar en presentar esta información bajo una **plataforma tipo wiki**: algo donde cualquiera pueda editar, volver atrás un cambio, etc. Que comunitariamente sea posible alcanzar una curación con margen de error tendiente a 0.
 
 De este modo, y siguiendo el ejemplo, la fuente de datos se mantiene intacta (el legislador sigue figurando dos veces) pero a nivel de la plataforma podemos marcar que esos dos registros refieren al mismo y en consecuencia, poder unificar sus acciones, votos, datos en una entidad superior que los una para luego presentarlo como la misma persona a nivel de API y a su vez, poder indicar qué fuente de datos se está viendo.
 
