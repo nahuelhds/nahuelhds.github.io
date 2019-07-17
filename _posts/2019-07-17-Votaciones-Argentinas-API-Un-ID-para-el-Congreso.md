@@ -3,7 +3,7 @@ lang: es
 title: "API de Votaciones Argentinas 🇦🇷"
 description: >-
   Ya se encuentra disponible una versión alpha para la consulta de las votaciones de Argentina.
-date: "2019-06-19T13:49:59.026Z"
+date: "2019-07-16T23:22:55.026Z"
 categories:
   - datos-abiertos
 keywords:
