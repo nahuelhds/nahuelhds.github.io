@@ -1,7 +1,7 @@
 ---
 lang: es
 title: "#UruguayDecide: los robots también opinan… 🤖"
-description: >-
+excerpt: >-
   Análisis de datos automatizado sobre el texto completo del debate entre entre
   Óscar Andrade y Ernesto Talvi, mediante técnicas de…
 date: "2019-06-19T13:49:59.026Z"

@@ -1,7 +1,7 @@
 ---
 lang: es
 title: Accedé a las votaciones de Diputados Argentina de forma sistematizada
-description: Todas las votaciones desde 1993 en formato SQL y CSV
+excerpt: Todas las votaciones desde 1993 en formato SQL y CSV
 date: '2019-04-20T23:21:52.120Z'
 categories:
   - datasets 

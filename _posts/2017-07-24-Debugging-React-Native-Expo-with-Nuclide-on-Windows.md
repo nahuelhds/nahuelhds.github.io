@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Debugging React Native + Expo with Nuclide on Windows
-description: The experience that couldn’t be
+excerpt: The experience that couldn’t be
 date: '2017-07-24T11:48:42.504Z'
 categories:
   - react-native

@@ -3,7 +3,7 @@ lang: es
 title: >-
   Cómo bloquear anuncios de Youtube en tu dispositivo iOS (iPhone/iPad) con
   Adblock Plus
-description: 'Hoy, en "Cosas que quizás no sabías…"'
+excerpt: 'Hoy, en "Cosas que quizás no sabías…"'
 date: "2019-05-16T13:56:52.082Z"
 categories:
   - hacks

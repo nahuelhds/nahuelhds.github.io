@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Undoing unwanted commits on Git
-description: >-
+excerpt: >-
   I’m sure that once in a while, it just happens that you made a mistake. That’s
   ok. It happens.
 date: '2019-05-12T03:44:20.530Z'

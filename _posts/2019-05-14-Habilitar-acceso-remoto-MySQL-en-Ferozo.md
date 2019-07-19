@@ -1,7 +1,7 @@
 ---
 lang: es
 title: Habilitar acceso remoto MySQL en Ferozo
-description: "Quien haya trabajado con DonWeb \U0001F92E\U0001F92E\U0001F92E sabe que utiliza Ferozo para la gestión de los servidores dedicados, y que por ende realizar…"
+excerpt: "Quien haya trabajado con DonWeb \U0001F92E\U0001F92E\U0001F92E sabe que utiliza Ferozo para la gestión de los servidores dedicados, y que por ende realizar…"
 date: '2019-05-14T11:19:15.795Z'
 categories: 
   - server

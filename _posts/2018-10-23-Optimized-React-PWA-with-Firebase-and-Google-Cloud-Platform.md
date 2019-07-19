@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Optimized React PWA with Firebase and Google Cloud Platform
-description: A boilerplate made for PWA development with React and Firebase deploy.
+excerpt: A boilerplate made for PWA development with React and Firebase deploy.
 date: '2018-10-23T12:18:35.783Z'
 categories:
   - boilerplates

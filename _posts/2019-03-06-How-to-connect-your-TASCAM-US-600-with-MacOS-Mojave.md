@@ -1,7 +1,7 @@
 ---
 lang: en
 title: How to connect your TASCAM US-600 with MacOS Mojave
-description: This also works with any TASCAM US-XXX.
+excerpt: This also works with any TASCAM US-XXX.
 date: '2019-03-06T03:31:17.766Z'
 categories:
   - music

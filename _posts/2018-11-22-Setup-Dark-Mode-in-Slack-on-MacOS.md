@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Setup Dark Mode in Slack on MacOS
-description: You only have to follow these two steps
+excerpt: You only have to follow these two steps
 date: "2018-11-22T13:29:06.953Z"
 categories:
   - slack

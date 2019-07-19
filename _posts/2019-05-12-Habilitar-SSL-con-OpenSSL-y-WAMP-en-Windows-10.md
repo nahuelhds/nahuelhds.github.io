@@ -1,7 +1,7 @@
 ---
 lang: es
 title: Habilitar SSL con OpenSSL y WAMP en Windows 10
-description: >-
+excerpt: >-
   Si precisás habilitar SSL para algún proyecto local en Windows, seguramente ya
   sabés que puede ser un dolor de cabeza…
 date: '2019-05-12T22:10:19.427Z'

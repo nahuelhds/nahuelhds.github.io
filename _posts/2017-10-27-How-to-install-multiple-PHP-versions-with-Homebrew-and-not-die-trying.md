@@ -1,7 +1,7 @@
 ---
 lang: en
 title: How to install multiple PHP versions with Homebrew and not die trying…
-description: May 2019 update
+excerpt: May 2019 update
 date: '2017-10-27T14:13:39.928Z'
 categories:
   - brew

@@ -1,7 +1,7 @@
 ---
 lang: es
 title: Cómo bloquear anuncios de Youtube con Adblock Plus en tu navegador
-description: 'Hoy, en “Cosas que quizás no sabías…”'
+excerpt: 'Hoy, en “Cosas que quizás no sabías…”'
 date: '2019-05-16T13:17:27.668Z'
 categories:
   - hacks

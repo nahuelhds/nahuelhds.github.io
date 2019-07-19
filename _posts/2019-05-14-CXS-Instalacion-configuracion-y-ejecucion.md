@@ -1,7 +1,7 @@
 ---
 lang: es
 title: 'CXS — Instalación, configuración y ejecución'
-description: >-
+excerpt: >-
   Si todavía no sabés que es ConfigServer eXploit Scanner, básicamente es la
   salvación para la seguridad de cualquier servidor: realiza…
 date: '2019-05-14T11:24:42.010Z'

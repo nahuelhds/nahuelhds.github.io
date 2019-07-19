@@ -3,7 +3,7 @@ lang: es
 title: >-
   Cómo instalar múltiples versiones de PHP en Apache con Homebrew y no morir en
   el intento…
-description: Actualización de Mayo de 2019
+excerpt: Actualización de Mayo de 2019
 date: '2017-10-17T14:29:30.937Z'
 categories:
   - brew

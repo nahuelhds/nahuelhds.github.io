@@ -1,7 +1,7 @@
 ---
 lang: en
 title: How to delete local and remote tags massively from a git repo in just one line
-description: A one-line command to save you hours of manual work
+excerpt: A one-line command to save you hours of manual work
 date: '2019-05-12T20:24:33.560Z'
 categories:
   - git

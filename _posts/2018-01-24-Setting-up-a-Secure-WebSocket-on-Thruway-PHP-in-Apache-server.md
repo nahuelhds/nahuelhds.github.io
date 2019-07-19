@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Setting up a Secure WebSocket on Thruway (PHP) in Apache server
-description: >-
+excerpt: >-
   If you have a working websocket server voryx/Thruway you probably want to know
   how to configure it to make it work with secure websocket…
 date: '2018-01-24T03:17:32.847Z'
