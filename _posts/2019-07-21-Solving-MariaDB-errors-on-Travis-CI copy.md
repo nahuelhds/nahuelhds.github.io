@@ -4,10 +4,10 @@ title: "Solving MariaDB errors on Travis CI"
 excerpt: >-
   Some errors I've faced while configuring and deploying on Travis CI
 categories:
-  - mariadb
-keywords:
   - travis-ci
+keywords:
   - travis
+  - mariadb
   - root
   - localhost
   - access-denied
