@@ -35,6 +35,7 @@ before_script:
   - sudo mysql -e 'CREATE DATABASE testing;'
   - composer self-update
   - composer install --no-interaction
+  - php artisan key:generate
   - php artisan migrate --no-interaction -vvv
 
 script:
@@ -49,7 +50,7 @@ The `.env.travis` file is versioned and contains the following code.
 
 APP_NAME=Laravel
 APP_ENV=testing
-APP_KEY=base64:Dhtsut2yoe1Oc7Glgl4zPrGLQEKECbi3NoRNQh2N4/c=
+APP_KEY=
 APP_DEBUG=true
 APP_URL=http://localhost/
 
