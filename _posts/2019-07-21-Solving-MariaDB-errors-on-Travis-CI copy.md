@@ -37,8 +37,6 @@ before_script:
   - sudo mysql -e 'create database testing;'
 ```
 
-And that's it. Hope it helps!
-
 ## SQLSTATE[HY000] [1698] Access denied for user 'travis'@'localhost'
 
 This error happens because Travis by default uses `dist: xenial` which is not fully compatible with the MariaDB addon yet.
@@ -50,3 +48,5 @@ dist: precise
 
 # ... rest of your config file
 ```
+
+And that's it. Hope it helps!
