@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "Solving MariaDB errors in Travis CI"
+title: "Solving MariaDB errors on Travis CI"
 excerpt: >-
   Some errors I've faced while configuring and deploying on Travis CI
 categories:
