@@ -1,6 +1,8 @@
 ---
 lang: en
 title: "Solving MariaDB errors in Travis CI"
+excerpt: >-
+  Some errors I've faced while configuring and deploying on Travis CI
 categories:
   - mariadb
 keywords:
@@ -13,7 +15,7 @@ keywords:
 
 ## ERROR 1698 (28000): Access denied for user 'root'@'localhost'
 
-If you're receiving **"ERROR 1698 (28000): Access denied for user 'root'@'localhost'"** on TravisCI with MariaDB database, you need to use `sudo` in the line execution. Yeah. Just that.
+You need to use `sudo` in the line execution. Yeah. Just that.
 
 I had this `.travis.yml` file
 
