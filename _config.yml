@@ -1,13 +1,13 @@
 # Site settings
-title: "The programming geek 👨‍💻"
-description: "Technical blog for daily coder issues"
+title: "nahuelhds 👨‍💻"
+description: "My technical blog"
 email: "nahuelhds@gmail.com"
 
 baseurl: ""
 url: "https://nahuelhds.dev"
 
 twitter_username: "nahuelhds"
-github_username:  "nahuelhds"
+github_username: "nahuelhds"
 instagram_username: "programming.geek"
 facebook_username: "nahuelhds"
 
@@ -23,8 +23,7 @@ include:
 
 # Defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
