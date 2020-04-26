@@ -13,8 +13,6 @@ keywords:
     - rss
 ---
 
-# Bots de Twitter y diarios de Uruguay 🇺🇾
-
 Bueno, hace unos días hice públicos unos bots que armé para monitorear las noticias que publican algunos medios de prensa uruguayos 🇺🇾
 
 El país
