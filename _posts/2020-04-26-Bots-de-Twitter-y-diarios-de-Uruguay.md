@@ -49,7 +49,7 @@ Si detectan nuevas diferencias, continúan publicando sobre el mismo hilo. 🤖
 
 Tiene varias ajustes para hacer aún. Por ejemplo, [@portalmvd](https://twitter.com/portalmvd) tiene problemas de acentos y todo el tiempo se detectan cambios por eso. Tengo que hacer que omita este tipo de cosas. No aportan a las diferencias que me gustaría destacar. Es un monitoreo editorial, no de redacción.
 
-Otro caso de ejemplo es que [@ladiaria] cada tanto pone que se llegó al límite de consultas (la querida suscripción). Tendría que poder detectar que eso en realidad no es un cambio en la noticia.
+Otro caso de ejemplo es que [@ladiaria](https://twitter.com/ladiaria) cada tanto pone que se llegó al límite de consultas (la querida suscripción). Tendría que poder detectar que eso en realidad no es un cambio en la noticia.
 
 Detalles que iré mejorando.
 
